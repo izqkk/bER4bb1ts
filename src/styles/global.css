@@ -15,6 +15,18 @@ body {
 	line-height: 1.5;
 	color: #bdbdbd;
 }
+main {
+	font-family: Verdana, sans-serif;
+	font: 1.2em/1.62 sans-serif;
+	margin: auto;
+	padding: 0 .62em;
+	text-align: left;
+	background-color: #191919ff;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
+	color: #bdbdbd;
+}
 h1,
 h2,
 h3,
