@@ -3,8 +3,8 @@ Rebuilt from @0xRar initial version.
 
 ## 🤖 Tech stack
 
-Main Framework - Astro
-Styling - TailwindCSS
+Main Framework - Astro <br>
+Styling - TailwindCSS <br>
 Deployment - Vercel
 
 ## 🖥️ Running locally
