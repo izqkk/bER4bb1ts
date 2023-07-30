@@ -1,0 +1,15 @@
+---
+interface Props {
+  href?: string;
+  target?: string;
+}
+const { href } = Astro.props;
+const { target } = Astro.props;
+---
+
+<a
+  href={href}
+  target={target}
+  class="underline transition duration-200 decoration-2 decoration-accent-300/80 hover:decoration-accent-300"
+  ><slot />
+</a>
