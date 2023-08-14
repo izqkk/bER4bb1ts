@@ -4,6 +4,7 @@ const members = [
     name: "0xRar",
     country:"🇧🇭",
     description:"My name is Isa Ebrahim, also known as 0xRar.",
+    
 
     },
     {
@@ -26,13 +27,13 @@ const members = [
     }
 ]
 ---
-<div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2 mt-6">
+<div class="grid gap-8 m-6 lg:mb-16 md:grid-cols-2">
     {
         members.map((m) => (
     
-    <div class="grid grid-cols-3 items-center bg-[#232323] border-solid border-[#bdbdbd] border-2 rounded-xl drop-shadow-[0_8px_5px_rgba(0,0,0,0.6)]">
+    <div class="grid grid-cols-3 items-center bg-[#232323] border-solid border-[#bdbdbd] border-4 rounded-xl drop-shadow-[0_8px_5px_rgba(0,0,0,0.6)]">
         <a href="#">
-            <img class="rounded-full m-3 w-40 h-40 basis-1/4" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar">
+            <img class="object-cover rounded-full p-1" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar">
         </a>
         <div class="p-5 col-span-2">
             <h3 class="text-xl font-bold tracking-tight text-[#bdbdbd]">
