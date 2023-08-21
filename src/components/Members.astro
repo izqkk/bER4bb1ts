@@ -4,6 +4,19 @@ const members = [
     name: "0xRar",
     country:"🇧🇭",
     description:"My name is Isa Ebrahim, also known as 0xRar.",
+    avatar:"src/assets/images/avatars/0xRar.png",
+    facebook:"",
+    twitter:"https://twitter.com/fcv9_q",
+    github:"https://github.com/0xRar",
+    website:"https://0xrar.net/",
+    
+
+    },
+    {
+    name: "Riddle",
+    country:"🇧🇭",
+    description:"My name is Isa Ebrahim, also known as 0xRar.",
+    avatar:"src/assets/images/avatars/riddle.jpg",
     facebook:"",
     twitter:"",
     github:"",
@@ -12,23 +25,18 @@ const members = [
 
     },
     {
-    name: "0xRar",
-    country:"🇧🇭",
-    description:"My name is Isa Ebrahim, also known as 0xRar, and I am a self-taught cyber security enthusiast from Bahrain. ",
+    name: "",
+    country:"",
+    description:"",
+    avatar:"src/assets/images/avatars/",
+    facebook:"",
+    twitter:"",
+    github:"",
+    website:"",
+    
 
     },
-    {
-    name: "0xRar",
-    country:"🇧🇭",
-    description:"My name is Isa Ebrahim, also known as 0xRar, and I am a self-taught cyber security enthusiast from Bahrain. ",
-
-    },
-    {
-    name: "0xRar",
-    country:"🇧🇭",
-    description:"My name is Isa Ebrahim, also known as 0xRar, and I am a self-taught cyber security enthusiast from Bahrain. ",
-
-    }
+  
 ]
 ---
 <div class="grid gap-8 m-6 lg:mb-16 md:grid-cols-2">
@@ -36,8 +44,8 @@ const members = [
         members.map((m) => (
     
     <div class="grid grid-cols-3 items-center bg-[#232323] border-solid border-[#bdbdbd] border-4 rounded-xl drop-shadow-[0_8px_5px_rgba(0,0,0,0.6)]">
-        <a href="#">
-            <img class="object-cover rounded-full p-1" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar">
+        <a target="_blank" href={ m.website }> 
+            <img class="object-cover rounded-full p-1" src={ m.avatar } alt="Avatar">
         </a>
         <div class="p-5 col-span-2">
             <h3 class="text-xl font-bold tracking-tight text-[#bdbdbd]">
