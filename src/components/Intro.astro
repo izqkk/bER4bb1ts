@@ -30,3 +30,12 @@ import '../styles/global.css';
         />
       </div>
 </main>
+<script type="module" defer>
+  import { polyfillCountryFlagEmojis } from "https://cdn.skypack.dev/country-flag-emoji-polyfill";
+  polyfillCountryFlagEmojis();
+  </script>
+  <style>
+  * {
+      font-family: "Twemoji Country Flags", Verdana, sans-serif;
+  }
+  </style>
