@@ -16,9 +16,6 @@ dependencies:
   astro:
     specifier: ^2.9.2
     version: 2.9.2
-  country-flag-emoji-polyfill:
-    specifier: ^0.1.4
-    version: 0.1.4
   tailwindcss:
     specifier: ^3.0.24
     version: 3.3.3
@@ -1458,12 +1455,6 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /country-flag-emoji-polyfill@0.1.4:
-    resolution: {integrity: sha512-e20azlb9yHb3mpL3lAlhkidmJgB5TELpA8oe0DPlyIfnqXhAGBmgLDpC+mm+Envh57n1xPrOfkJtXq2CrpvoGQ==}
-    dependencies:
-      is-emoji-supported: 0.0.5
-    dev: false
-
   /cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
@@ -2120,10 +2111,6 @@ packages:
     resolution: {integrity: sha512-eljcgEDlEns/7AXFosB5K/2nCM4P7FQPkGc/DWLy5rmFEWvZayGrik1d9/QIY5nJ4f9YsVvBkA6kJpHn9rISdQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
-    dev: false
-
-  /is-emoji-supported@0.0.5:
-    resolution: {integrity: sha512-WOlXUhDDHxYqcSmFZis+xWhhqXiK2SU0iYiqmth5Ip0FHLZQAt9rKL5ahnilE8/86WH8tZ3bmNNNC+bTzamqlw==}
     dev: false
 
   /is-extendable@0.1.1:
