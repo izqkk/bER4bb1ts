@@ -5,6 +5,8 @@ Rebuilt from @0xRar initial version.
 
 Main Framework - Astro <br>
 Styling - TailwindCSS <br>
+Flags - Country Flag Emoji Polyfill <br>
+Form - Formsubmit <br>
 Deployment - Vercel
 
 ## 🖥️ Running locally
