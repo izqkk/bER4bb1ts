@@ -5,6 +5,7 @@ const members = [
     country:"🇧🇭",
     description:"My name is Isa Ebrahim, also known as 0xRar.",
     avatar:"/avatars/0xRar.png",
+    linkedin:"",
     facebook:"",
     twitter:"https://twitter.com/fcv9_q",
     github:"https://github.com/0xRar",
@@ -17,8 +18,35 @@ const members = [
     country:"🇧🇭",
     description:"My name is Isa Ebrahim, also known as 0xRar.",
     avatar:"/avatars/riddle.jpg",
+    linkedin:"",
     facebook:"",
     twitter:"",
+    github:"",
+    website:"",
+    
+
+    },
+    {
+    name: "zaqk",
+    country:"🇩🇪",
+    description:"print(InspirationalQuote)",
+    avatar:"/avatars/zaqk.jpg",
+    linkedin:"",
+    facebook:"",
+    twitter:"https://twitter.com/zaqk_",
+    github:"https://github.com/izqkk/",
+    website:"https://blog-izqkk.vercel.app/",
+    
+
+    },
+    {
+    name: "0xMayo",
+    country:"🇺🇸",
+    description:"I'm Cole and I do OSINT. Brian Krebs rips me off.",
+    avatar:"/avatars/0xMayo.png",
+    linkedin:"https://linkedin.com/in/cole-r/",
+    facebook:"",
+    twitter:"https://twitter.com/kitchen_mayo",
     github:"",
     website:"",
     
@@ -29,6 +57,7 @@ const members = [
     country:"",
     description:"",
     avatar:"src/assets/images/avatars/",
+    linkedin:"",
     facebook:"",
     twitter:"",
     github:"",
@@ -53,7 +82,13 @@ const members = [
             </h3>
             <p class="mt-3 mb-4 font-light text-[#bdbdbd] ">{m.description}</p>
             <ul class="flex space-x-4 sm:mt-0">
-                {m.facebook && <li>
+                {m.linkedin &&
+                <li><a href={ m.linkedin } class="text-[#bdbdbd] hover:text-gray-900">
+                    <svg class="w-5 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M 8.6425781 4 C 7.1835781 4 6 5.181625 6 6.640625 C 6 8.099625 7.182625 9.3085938 8.640625 9.3085938 C 10.098625 9.3085938 11.283203 8.099625 11.283203 6.640625 C 11.283203 5.182625 10.101578 4 8.6425781 4 z M 21.535156 11 C 19.316156 11 18.0465 12.160453 17.4375 13.314453 L 17.373047 13.314453 L 17.373047 11.310547 L 13 11.310547 L 13 26 L 17.556641 26 L 17.556641 18.728516 C 17.556641 16.812516 17.701266 14.960938 20.072266 14.960938 C 22.409266 14.960937 22.443359 17.145609 22.443359 18.849609 L 22.443359 26 L 26.994141 26 L 27 26 L 27 17.931641 C 27 13.983641 26.151156 11 21.535156 11 z M 6.3632812 11.310547 L 6.3632812 26 L 10.923828 26 L 10.923828 11.310547 L 6.3632812 11.310547 z"></path>
+                    </svg>
+                </li>}
+                    {m.facebook && <li>
                     <a href={ m.facebook } class="text-[#bdbdbd] hover:text-gray-900">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
                     </a>
