@@ -13,7 +13,7 @@ Deployment - Vercel
 
 ```sh
 pnpm install
-pnpm dev
+pnpm run dev
 ```
 ## Where is what
 
