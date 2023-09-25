@@ -1,5 +1,5 @@
 # bER4bb1t$ - CTF Team Website
-Rebuilt from @0xRar initial version.
+Rebuilt from [@0xRar](https://github.com/0xRar) initial version.
 
 ## 🤖 Tech stack
 
