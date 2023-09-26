@@ -5,8 +5,6 @@ const members = [
     country:"🇧🇭",
     description:"My name is Isa Ebrahim, also known as 0xRar.",
     avatar:"/avatars/0xRar.png",
-    linkedin:"",
-    facebook:"",
     twitter:"https://twitter.com/fcv9_q",
     github:"https://github.com/0xRar",
     website:"https://0xrar.net/",
@@ -18,9 +16,6 @@ const members = [
     country:"🇪🇬",
     description:"",
     avatar:"/avatars/riddle.jpg",
-    linkedin:"",
-    facebook:"",
-    twitter:"",
     github:"https://github.com/r1ddll3",
     website:"",
     
@@ -31,11 +26,11 @@ const members = [
     country:"🇩🇪",
     description:"print(InspirationalQuote)",
     avatar:"/avatars/zaqk.jpg",
-    linkedin:"",
-    facebook:"",
     twitter:"https://twitter.com/zaqk_",
     github:"https://github.com/izqkk/",
     website:"https://blog-izqkk.vercel.app/",
+    osint:"true",
+    misc:"true",
     
 
     },
@@ -45,10 +40,8 @@ const members = [
     description:"I'm Cole and I do OSINT. Brian Krebs rips me off.",
     avatar:"/avatars/0xMayo.png",
     linkedin:"https://linkedin.com/in/cole-r/",
-    facebook:"",
     twitter:"https://twitter.com/kitchen_mayo",
-    github:"",
-    website:"",
+    osint:"true",
     
 
     },
@@ -57,29 +50,21 @@ const members = [
     country:"🇯🇴",
     description:"",
     avatar:"/avatars/pink.jfif",
-    category1:"",
-    color1:"",
-    category2:"",
-    color2:"",
-    category3:"",
-    color3:"",
     linkedin:"https://www.linkedin.com/in/ahmad-alawneh-6527ab209",
-    facebook:"",
-    twitter:"",
-    github:"",
-    website:"",
     },
     {
     name: "",
     country:"",
     description:"",
     avatar:"/avatars/",
-    category1:"",
-    color1:"",
-    category2:"",
-    color2:"",
-    category3:"",
-    color3:"",
+    misc:"true",
+    web:"true",
+    reverse:"true",
+    pwn:"true",
+    crypto:"true",
+    osint:"true",
+    forensics:"true",
+    bin:"true",
     linkedin:"",
     facebook:"",
     twitter:"",
@@ -101,6 +86,16 @@ const members = [
             <h3 class="text-xl font-bold tracking-tight text-[#bdbdbd]">
                 <a href="#">{m.name} {m.country}</a>
             </h3>
+
+{m.web && <span class="bg-blue-900 text-blue-300 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">Web</span>}
+{m.pwn && <span class="bg-red-900 dark:text-red-300 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">Pwn</span>}
+{m.bin && <span class="bg-green-900 dark:text-green-300 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">Bin</span>}
+{m.reverse && <span class="bg-yellow-900 dark:text-yellow-3007 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">Reverse</span>}
+{m.osint && <span class="bg-indigo-900 dark:text-indigo-300 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">OSINT</span>}
+{m.crypto && <span class="bg-purple-900 dark:text-purple-300 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">Crypto</span>}
+{m.forensics && <span class="bg-pink-900 dark:text-pink-300 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">Forensics</span>}
+{m.misc && <span class="bg-gray-700 dark:text-gray-300 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">Misc</span>}
+
             <p class="mt-3 mb-4 font-light text-[#bdbdbd] ">{m.description}</p>
             <ul class="flex space-x-4 sm:mt-0">
                 {m.linkedin &&
